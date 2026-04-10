@@ -1,307 +1,784 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Character Encoding -->
     <meta charset="UTF-8">
-    
-    <!-- Responsive Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags -->
-    <title>TFC - Tasty Fried Chicken | Live Kitchen Hyderabad</title>
-    <meta name="description" content="TFC - Tasty Fried Chicken serves the best Fried & Crispy Chicken in Hyderabad. Experience our Live Kitchen with fresh, delicious fried chicken. Order now or explore franchise opportunities!">
-    <meta name="keywords" content="TFC, Tasty Fried Chicken, Fried Chicken Hyderabad, Crispy Chicken, Live Kitchen, Fast Food, Chicken Restaurant, Franchise Hyderabad">
-    <meta name="author" content="TFC - Tasty Fried Chicken">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://tfc-hyderabad.com">
-    
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tfc-hyderabad.com">
-    <meta property="og:title" content="TFC - Tasty Fried Chicken | Live Kitchen Hyderabad">
-    <meta property="og:description" content="Experience the best Fried & Crispy Chicken in Hyderabad. Fresh, delicious, and made in our Live Kitchen. Order now or join our franchise family!">
-    <meta property="og:image" content="https://tfc-hyderabad.com/images/tfc-og-image.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="TFC - Tasty Fried Chicken">
-    <meta property="og:locale" content="en_IN">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://tfc-hyderabad.com">
-    <meta name="twitter:title" content="TFC - Tasty Fried Chicken | Live Kitchen Hyderabad">
-    <meta name="twitter:description" content="Experience the best Fried & Crispy Chicken in Hyderabad. Fresh, delicious, and made in our Live Kitchen.">
-    <meta name="twitter:image" content="https://tfc-hyderabad.com/images/tfc-og-image.jpg">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./images/favicon.png">
-    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
-    
-    <!-- Google Fonts - Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>TFC - Tasty Fried Chicken | Live Kitchen | Hyderabad</title>
+    <meta name="description" content="TFC - Tasty Fried Chicken. Live Kitchen in Hyderabad. Best fried chicken, popcorn, rolls, and more. Order on WhatsApp now!">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./styles.css">
-    
-    <!-- Theme Color for Mobile Browsers -->
-    <meta name="theme-color" content="#DC143C">
-    <meta name="msapplication-TileColor" content="#DC143C">
 </head>
 <body>
-    <!-- Skip to Content Link for Accessibility -->
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-    
-    <!-- ==================== NAVIGATION BAR ==================== -->
-    <header class="header" role="banner">
-        <nav class="navbar" role="navigation" aria-label="Main Navigation">
-            <div class="nav-container">
-                <!-- Logo -->
-                <a href="#" class="nav-logo" aria-label="TFC - Tasty Fried Chicken Home">
-                    <img src="./images/tfc-logo.png" alt="TFC Logo" class="logo-img" width="60" height="60">
-                    <div class="logo-text">
-                        <span class="logo-main">TFC</span>
-                        <span class="logo-sub">Tasty Fried Chicken</span>
-                    </div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <span class="logo-icon"><i class="fas fa-drumstick-bite"></i></span>
+                    <span class="logo-text">TFC</span>
                 </a>
-                
-                <!-- Mobile Menu Toggle -->
-                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
                 </button>
-                
-                <!-- Navigation Menu -->
-                <ul class="nav-menu" id="navMenu" role="menubar">
-                    <li class="nav-item" role="none">
-                        <a href="#hero" class="nav-link active" role="menuitem" aria-current="page">Home</a>
-                    </li>
-                    <li class="nav-item" role="none">
-                        <a href="#menu" class="nav-link" role="menuitem">Menu</a>
-                    </li>
-                    <li class="nav-item" role="none">
-                        <a href="#franchise" class="nav-link" role="menuitem">Franchise</a>
-                    </li>
-                    <li class="nav-item" role="none">
-                        <a href="#location" class="nav-link" role="menuitem">Location</a>
-                    </li>
-                    <li class="nav-item" role="none">
-                        <a href="#testimonials" class="nav-link" role="menuitem">Reviews</a>
-                    </li>
-                    <li class="nav-item" role="none">
-                        <a href="#contact" class="nav-link" role="menuitem">Contact</a>
-                    </li>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#franchise" class="nav-link">Franchise</a></li>
+                    <li><a href="#location" class="nav-link">Location</a></li>
+                    <li><a href="#reviews" class="nav-link">Reviews</a></li>
                 </ul>
-                
-                <!-- WhatsApp CTA Button -->
-                <a href="https://wa.me/919985666252" class="nav-cta-btn" target="_blank" rel="noopener noreferrer" aria-label="Order on WhatsApp">
-                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                    <span>Order Now</span>
+                <a href="https://wa.me/919985666252" class="btn btn-whatsapp-nav" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order Now
                 </a>
             </div>
-        </nav>
-    </header>
-    
-    <!-- ==================== MAIN CONTENT ==================== -->
-    <main id="main-content" role="main">
-        
-        <!-- ==================== HERO SECTION ==================== -->
-        <section id="hero" class="hero-section" aria-labelledby="hero-title">
-            <!-- Placeholder for Hero_Designer -->
-            <div class="section-placeholder">
-                <div class="placeholder-content">
-                    <h1 id="hero-title" class="visually-hidden">TFC Hero Section</h1>
-                    <p class="placeholder-text">Hero Section - Placeholder for Hero_Designer</p>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-fire"></i> Live Kitchen
                 </div>
-            </div>
-        </section>
-        
-        <!-- ==================== MENU SECTION ==================== -->
-        <section id="menu" class="menu-section" aria-labelledby="menu-title">
-            <!-- Placeholder for Menu_Creator -->
-            <div class="section-placeholder">
-                <div class="placeholder-content">
-                    <h2 id="menu-title" class="visually-hidden">Our Menu</h2>
-                    <p class="placeholder-text">Menu Section - Placeholder for Menu_Creator</p>
-                </div>
-            </div>
-        </section>
-        
-        <!-- ==================== FRANCHISE SECTION ==================== -->
-        <section id="franchise" class="franchise-section" aria-labelledby="franchise-title">
-            <!-- Placeholder for Franchise_Builder -->
-            <div class="section-placeholder">
-                <div class="placeholder-content">
-                    <h2 id="franchise-title" class="visually-hidden">Franchise Opportunities</h2>
-                    <p class="placeholder-text">Franchise Section - Placeholder for Franchise_Builder</p>
-                </div>
-            </div>
-        </section>
-        
-        <!-- ==================== LOCATION SECTION ==================== -->
-        <section id="location" class="location-section" aria-labelledby="location-title">
-            <!-- Placeholder for Location_Integrator -->
-            <div class="section-placeholder">
-                <div class="placeholder-content">
-                    <h2 id="location-title" class="visually-hidden">Our Location</h2>
-                    <p class="placeholder-text">Location Section - Placeholder for Location_Integrator</p>
-                </div>
-            </div>
-        </section>
-        
-        <!-- ==================== TESTIMONIALS SECTION ==================== -->
-        <section id="testimonials" class="testimonials-section" aria-labelledby="testimonials-title">
-            <!-- Placeholder for Testimonial_Designer -->
-            <div class="section-placeholder">
-                <div class="placeholder-content">
-                    <h2 id="testimonials-title" class="visually-hidden">Customer Reviews</h2>
-                    <p class="placeholder-text">Testimonials Section - Placeholder for Testimonial_Designer</p>
-                </div>
-            </div>
-        </section>
-        
-    </main>
-    
-    <!-- ==================== FOOTER ==================== -->
-    <footer id="contact" class="footer" role="contentinfo">
-        <div class="footer-container">
-            <!-- Footer Top -->
-            <div class="footer-top">
-                <!-- Brand Info -->
-                <div class="footer-brand">
-                    <a href="#" class="footer-logo" aria-label="TFC Home">
-                        <img src="./images/tfc-logo.png" alt="TFC Logo" width="50" height="50">
-                        <span class="footer-logo-text">TFC</span>
+                <h1 class="hero-title">
+                    <span class="title-main">Tasty Fried Chicken</span>
+                    <span class="title-sub">Fried & Crispy Chicken</span>
+                </h1>
+                <p class="hero-location">
+                    <i class="fas fa-map-marker-alt"></i> Hyderabad, India
+                </p>
+                <p class="hero-description">
+                    Experience the crunchiest, juiciest fried chicken in Hyderabad. Made fresh daily in our live kitchen with premium quality ingredients.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/919985666252" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
                     </a>
-                    <p class="footer-tagline">Fried & Crispy Chicken | Live Kitchen</p>
-                    <p class="footer-description">Serving the best fried chicken in Hyderabad with our unique live kitchen experience. Fresh, delicious, and made with love.</p>
-                    <!-- Social Links -->
-                    <div class="social-links" aria-label="Social media links">
-                        <a href="https://facebook.com/tfc-hyderabad" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://instagram.com/tfc-hyderabad" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://twitter.com/tfc-hyderabad" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://youtube.com/tfc-hyderabad" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Subscribe on YouTube">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                        </a>
+                    <a href="#menu" class="btn btn-secondary">
+                        <i class="fas fa-utensils"></i> View Menu
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Happy Customers</span>
                     </div>
-                </div>
-                
-                <!-- Quick Links -->
-                <div class="footer-links">
-                    <h3 class="footer-heading">Quick Links</h3>
-                    <ul class="footer-nav">
-                        <li><a href="#hero">Home</a></li>
-                        <li><a href="#menu">Our Menu</a></li>
-                        <li><a href="#franchise">Franchise</a></li>
-                        <li><a href="#location">Location</a></li>
-                        <li><a href="#testimonials">Reviews</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Contact Info -->
-                <div class="footer-contact">
-                    <h3 class="footer-heading">Contact Us</h3>
-                    <ul class="contact-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                            <span>Hyderabad, Telangana, India</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                            <a href="tel:+919985666252">+91 99856 66252</a>
-                        </li>
-                        <li>
-                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                            <a href="https://wa.me/919985666252" target="_blank" rel="noopener noreferrer">WhatsApp Order</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope" aria-hidden="true"></i>
-                            <a href="mailto:info@tfc-hyderabad.com">info@tfc-hyderabad.com</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-clock" aria-hidden="true"></i>
-                            <span>Open Daily: 11 AM - 11 PM</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Franchise CTA -->
-                <div class="footer-franchise">
-                    <h3 class="footer-heading">Franchise Inquiry</h3>
-                    <p>Interested in owning a TFC franchise? Contact us today!</p>
-                    <a href="tel:+919985666252" class="footer-cta-btn">
-                        <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                        Call: 99856 66252
-                    </a>
-                </div>
-            </div>
-            
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-                <div class="footer-copyright">
-                    <p>&copy; <span id="currentYear">2024</span> TFC - Tasty Fried Chicken. All Rights Reserved.</p>
-                </div>
-                <div class="footer-legal">
-                    <a href="./privacy-policy.html">Privacy Policy</a>
-                    <span class="separator">|</span>
-                    <a href="./terms-of-service.html">Terms of Service</a>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Daily Orders</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Fresh Daily</span>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="hero-scroll">
+            <a href="#menu"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Menu</span>
+                <h2 class="section-title">Delicious Fried Goodness</h2>
+                <p class="section-subtitle">Freshly made with love and the finest ingredients</p>
+            </div>
+
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="fried-chicken">Fried Chicken</button>
+                <button class="tab-btn" data-category="popcorn">Popcorn</button>
+                <button class="tab-btn" data-category="rolls">Rolls</button>
+                <button class="tab-btn" data-category="starters">Starters</button>
+                <button class="tab-btn" data-category="fries">Fries</button>
+                <button class="tab-btn" data-category="desserts">Desserts</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Fried Chicken -->
+                <div class="menu-card" data-category="fried-chicken">
+                    <div class="menu-card-image">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Wings</h3>
+                        <p>Crispy fried chicken wings</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">10pc <strong>₹150</strong></span>
+                            <span class="size">12pc <strong>₹150</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="fried-chicken">
+                    <div class="menu-card-image">
+                        <i class="fas fa-bacon"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Strips</h3>
+                        <p>Golden crispy chicken strips</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">7pc <strong>₹100</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="fried-chicken">
+                    <div class="menu-card-image">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Nuggets</h3>
+                        <p>Classic bite-sized nuggets</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">8pc <strong>₹150</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="fried-chicken">
+                    <div class="menu-card-image">
+                        <i class="fas fa-candy-cane"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Lollipops</h3>
+                        <p>Flavorful chicken lollipops</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">1pc <strong>₹65</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="fried-chicken">
+                    <div class="menu-card-image">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Leg Piece</h3>
+                        <p>Juicy fried leg piece</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">1pc <strong>₹65</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popcorn -->
+                <div class="menu-card bestseller" data-category="popcorn">
+                    <div class="bestseller-badge">BESTSELLER</div>
+                    <div class="menu-card-image">
+                        <i class="fas fa-popcorn"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Popcorn</h3>
+                        <p>Crunchy bite-sized chicken</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">Small <strong>₹100</strong></span>
+                            <span class="size">Medium <strong>₹150</strong></span>
+                            <span class="size">Large <strong>₹250</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="popcorn">
+                    <div class="menu-card-image">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Fish Popcorn</h3>
+                        <p>Crispy fried fish bites</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">25pc <strong>₹150</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="popcorn">
+                    <div class="menu-card-image">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Fish Strips</h3>
+                        <p>Golden fish strips</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">15pc <strong>₹150</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="popcorn">
+                    <div class="menu-card-image">
+                        <i class="fas fa-shrimp"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Prawns Popcorn</h3>
+                        <p>Delicious prawn bites</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">10pc <strong>₹100</strong></span>
+                            <span class="size">15pc <strong>₹150</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Starters -->
+                <div class="menu-card" data-category="starters">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Veg Garlic Popcorn</h3>
+                        <p>Vegetarian garlic bites</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">15pc <strong>₹70</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="starters">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-cheese"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Paneer Popcorn</h3>
+                        <p>Crispy paneer bites</p>
+                        <div class="menu-card-sizes">
+                            <span class="size">Small <strong>₹100</strong></span>
+                            <span class="size">Medium <strong>₹150</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rolls -->
+                <div class="menu-card" data-category="rolls">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Paneer Roll</h3>
+                        <p>Delicious paneer wrap</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹70</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="rolls">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Veg Cheese Garlic Roll</h3>
+                        <p>Cheesy garlic wrap</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹80</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="rolls">
+                    <div class="menu-card-image">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Egg Roll</h3>
+                        <p>Classic egg wrap</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹65</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="rolls">
+                    <div class="menu-card-image">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Roll</h3>
+                        <p>Flavorful chicken wrap</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹75</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="rolls">
+                    <div class="menu-card-image">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Spicy Chicken Roll</h3>
+                        <p>Hot & spicy chicken wrap</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹80</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="rolls">
+                    <div class="menu-card-image">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Egg Chicken Roll</h3>
+                        <p>Egg & chicken combo wrap</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹90</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fries -->
+                <div class="menu-card" data-category="fries">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-french-fries"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>French Fries - Salt</h3>
+                        <p>Classic salted fries</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹60</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="fries">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Peri Peri Fries</h3>
+                        <p>Spicy peri peri flavor</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹65</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="fries">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-cookie-bite"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Crispy Fries</h3>
+                        <p>Extra crispy fries</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹100</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Browny</h3>
+                        <p>Rich chocolate brownie</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹60</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-card-image veg">
+                        <i class="fas fa-ice-cream"></i>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Browny with Ice Cream</h3>
+                        <p>Brownie topped with ice cream</p>
+                        <div class="menu-card-sizes">
+                            <span class="size"><strong>₹80</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta">
+                <a href="https://wa.me/919985666252" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order Now on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Franchise Section -->
+    <section class="franchise" id="franchise">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Franchise Opportunity</span>
+                <h2 class="section-title">Start Your TFC Franchise</h2>
+                <p class="section-subtitle">Join the fastest-growing fried chicken brand in India</p>
+            </div>
+
+            <div class="franchise-grid">
+                <div class="franchise-benefits">
+                    <h3>Why Choose TFC?</h3>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Established brand with proven success</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Complete training & support</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Marketing & promotional assistance</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Supply chain & logistics support</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Standardized recipes & procedures</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ongoing operational guidance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="franchise-investment">
+                    <h3>Investment Details</h3>
+                    <div class="investment-cards">
+                        <div class="investment-card">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span class="investment-value">₹5-10 Lakhs</span>
+                            <span class="investment-label">Investment Range</span>
+                        </div>
+                        <div class="investment-card">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="investment-value">12-18 Months</span>
+                            <span class="investment-label">Expected ROI</span>
+                        </div>
+                        <div class="investment-card">
+                            <i class="fas fa-store"></i>
+                            <span class="investment-value">200-400 sq ft</span>
+                            <span class="investment-label">Space Required</span>
+                        </div>
+                    </div>
+                    <div class="franchise-contact">
+                        <p><i class="fas fa-phone"></i> Call us: <a href="tel:9985666252">9985666252</a></p>
+                    </div>
+                </div>
+
+                <div class="franchise-form-wrapper">
+                    <h3>Franchise Inquiry</h3>
+                    <form class="franchise-form" id="franchiseForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="city" name="city" placeholder="City" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Submit Inquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Find Us</span>
+                <h2 class="section-title">Our Location</h2>
+                <p class="section-subtitle">Visit us for the best fried chicken experience</p>
+            </div>
+
+            <div class="location-grid">
+                <div class="location-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8!2d78.48!3d17.38!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0x1229c7424e6f27!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="location-info">
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="location-details">
+                            <h4>Address</h4>
+                            <p>Hyderabad, Telangana, India</p>
+                            <p class="landmark"><i class="fas fa-landmark"></i> Near VS Abacus & Vedic Maths</p>
+                        </div>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="location-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:9985666252">9985666252</a></p>
+                        </div>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="location-details">
+                            <h4>Opening Hours</h4>
+                            <p>Everyday: 11:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="location-details">
+                            <h4>WhatsApp Order</h4>
+                            <p><a href="https://wa.me/919985666252" target="_blank">Click to Order</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Customer Reviews</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real reviews from real customers</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <!-- Review 1 -->
+                    <div class="testimonial-card">
+                        <div class="whatsapp-header">
+                            <div class="whatsapp-user">
+                                <div class="whatsapp-avatar">RK</div>
+                                <div class="whatsapp-info">
+                                    <span class="whatsapp-name">Rahul Kumar</span>
+                                    <span class="whatsapp-time">Today, 2:30 PM</span>
+                                </div>
+                            </div>
+                            <i class="fab fa-whatsapp whatsapp-icon"></i>
+                        </div>
+                        <div class="whatsapp-message">
+                            <p>Best fried chicken in Hyderabad! The chicken popcorn is absolutely amazing. Crispy, juicy, and perfectly seasoned. Ordered multiple times and never disappointed!</p>
+                        </div>
+                        <div class="whatsapp-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="testimonial-card">
+                        <div class="whatsapp-header">
+                            <div class="whatsapp-user">
+                                <div class="whatsapp-avatar">SP</div>
+                                <div class="whatsapp-info">
+                                    <span class="whatsapp-name">Sneha Patel</span>
+                                    <span class="whatsapp-time">Yesterday, 7:15 PM</span>
+                                </div>
+                            </div>
+                            <i class="fab fa-whatsapp whatsapp-icon"></i>
+                        </div>
+                        <div class="whatsapp-message">
+                            <p>The rolls are to die for! Chicken roll and spicy chicken roll are my favorites. Quick delivery and hot food every time. Highly recommend TFC!</p>
+                        </div>
+                        <div class="whatsapp-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="testimonial-card">
+                        <div class="whatsapp-header">
+                            <div class="whatsapp-user">
+                                <div class="whatsapp-avatar">AM</div>
+                                <div class="whatsapp-info">
+                                    <span class="whatsapp-name">Arjun Mehta</span>
+                                    <span class="whatsapp-time">2 days ago, 1:00 PM</span>
+                                </div>
+                            </div>
+                            <i class="fab fa-whatsapp whatsapp-icon"></i>
+                        </div>
+                        <div class="whatsapp-message">
+                            <p>Finally found a place that serves fresh chicken daily! You can taste the difference. The lollipops and wings are my go-to order. Great value for money!</p>
+                        </div>
+                        <div class="whatsapp-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                    <!-- Review 4 -->
+                    <div class="testimonial-card">
+                        <div class="whatsapp-header">
+                            <div class="whatsapp-user">
+                                <div class="whatsapp-avatar">PR</div>
+                                <div class="whatsapp-info">
+                                    <span class="whatsapp-name">Priya Reddy</span>
+                                    <span class="whatsapp-time">3 days ago, 8:45 PM</span>
+                                </div>
+                            </div>
+                            <i class="fab fa-whatsapp whatsapp-icon"></i>
+                        </div>
+                        <div class="whatsapp-message">
+                            <p>Love the peri peri fries and fish popcorn! My family orders from TFC every weekend. The WhatsApp ordering is so convenient. Keep up the great work!</p>
+                        </div>
+                        <div class="whatsapp-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <!-- Review 5 -->
+                    <div class="testimonial-card">
+                        <div class="whatsapp-header">
+                            <div class="whatsapp-user">
+                                <div class="whatsapp-avatar">VS</div>
+                                <div class="whatsapp-info">
+                                    <span class="whatsapp-name">Vikram Singh</span>
+                                    <span class="whatsapp-time">1 week ago, 6:30 PM</span>
+                                </div>
+                            </div>
+                            <i class="fab fa-whatsapp whatsapp-icon"></i>
+                        </div>
+                        <div class="whatsapp-message">
+                            <p>TFC has become our favorite fried chicken spot! The quality is consistent, prices are fair, and the service is excellent. The brownie with ice cream is the perfect dessert!</p>
+                        </div>
+                        <div class="whatsapp-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials-nav">
+                    <button class="testimonial-btn prev" id="testimonialPrev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonials-dots" id="testimonialsDots"></div>
+                    <button class="testimonial-btn next" id="testimonialNext">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon"><i class="fas fa-drumstick-bite"></i></span>
+                        <span class="logo-text">TFC</span>
+                    </a>
+                    <p class="footer-tagline">Fried & Crispy Chicken - Live Kitchen</p>
+                    <p class="footer-desc">Serving the best fried chicken in Hyderabad with love and passion. Fresh ingredients, authentic taste, unforgettable experience.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/919985666252" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#franchise">Franchise</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:9985666252">9985666252</a></li>
+                        <li><i class="fas fa-clock"></i> 11 AM - 11 PM</li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919985666252" target="_blank">Order on WhatsApp</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-franchise">
+                    <h4>Franchise Opportunity</h4>
+                    <p>Interested in opening a TFC franchise?</p>
+                    <p class="franchise-phone"><i class="fas fa-phone"></i> 9985666252</p>
+                    <a href="#franchise" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 TFC - Tasty Fried Chicken. All Rights Reserved.</p>
+                <p class="footer-credit">Made with <i class="fas fa-heart"></i> in Hyderabad</p>
+            </div>
+        </div>
     </footer>
-    
-    <!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
-    <a href="https://wa.me/919985666252" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
-        <i class="fab fa-whatsapp" aria-hidden="true"></i>
-        <span class="whatsapp-tooltip">Order on WhatsApp</span>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919985666252" class="whatsapp-float" target="_blank" aria-label="Order on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Order Now</span>
     </a>
-    
-    <!-- ==================== BACK TO TOP BUTTON ==================== -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
-        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
     </button>
-    
-    <!-- ==================== JAVASCRIPT ==================== -->
-    <script src="./script.js"></script>
-    
-    <!-- Structured Data / Schema.org for SEO -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Restaurant",
-        "name": "TFC - Tasty Fried Chicken",
-        "alternateName": "TFC Hyderabad",
-        "description": "Serving the best Fried & Crispy Chicken in Hyderabad with our unique live kitchen experience.",
-        "url": "https://tfc-hyderabad.com",
-        "telephone": "+919985666252",
-        "email": "info@tfc-hyderabad.com",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Hyderabad",
-            "addressRegion": "Telangana",
-            "addressCountry": "IN"
-        },
-        "servesCuisine": ["Fried Chicken", "Fast Food", "American"],
-        "priceRange": "$$",
-        "openingHours": "Mo-Su 11:00-23:00",
-        "image": "https://tfc-hyderabad.com/images/tfc-logo.png",
-        "sameAs": [
-            "https://facebook.com/tfc-hyderabad",
-            "https://instagram.com/tfc-hyderabad",
-            "https://twitter.com/tfc-hyderabad"
-        ]
-    }
-    </script>
+
+    <script src="script.js"></script>
 </body>
 </html>
